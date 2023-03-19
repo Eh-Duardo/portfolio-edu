@@ -44,9 +44,9 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="" /></a>
-              <a href="#"><img src={navIcon2} alt="" /></a>
-              <a href="#"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/edupe/" target="_blank"><img src={navIcon1} alt="" /></a>
+              <a href="https://github.com/Eh-Duardo/portfolio-edu" target="_blank"><img src={navIcon2} alt="" /></a>
+              <a href="https://www.instagram.com/Duardohm/" target="_blank"><img src={navIcon3} alt="" /></a>
             </div>
             <button className="vvd" onClick={() => console.log('Teste')}><span>Let's Connect</span></button>
           </span>
