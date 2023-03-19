@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-edu/static/css/main.49c04f00.css",
-    "main.js": "/portfolio-edu/static/js/main.55b34ef5.js",
+    "main.js": "/portfolio-edu/static/js/main.643ee012.js",
     "static/js/787.9c9f06ac.chunk.js": "/portfolio-edu/static/js/787.9c9f06ac.chunk.js",
     "static/media/color-sharp.png": "/portfolio-edu/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/banner-bg.png": "/portfolio-edu/static/media/banner-bg.cc1273af450504afe755.png",
@@ -17,16 +17,16 @@
     "static/media/meter1.svg": "/portfolio-edu/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/portfolio-edu/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/logo.svg": "/portfolio-edu/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
-    "static/media/nav-icon3.svg": "/portfolio-edu/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/portfolio-edu/index.html",
-    "static/media/nav-icon1.svg": "/portfolio-edu/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/nav-icon2.svg": "/portfolio-edu/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "static/media/nav-icon2.svg": "/portfolio-edu/static/media/nav-icon2.9b9489c0e2327f30e86ee7e0b5f72f55.svg",
+    "static/media/nav-icon1.svg": "/portfolio-edu/static/media/nav-icon1.de167dc9ad15e7c55597947b14b669bb.svg",
+    "static/media/nav-icon3.svg": "/portfolio-edu/static/media/nav-icon3.332881a84c91d4ca10e995a372e8039a.svg",
     "main.49c04f00.css.map": "/portfolio-edu/static/css/main.49c04f00.css.map",
-    "main.55b34ef5.js.map": "/portfolio-edu/static/js/main.55b34ef5.js.map",
+    "main.643ee012.js.map": "/portfolio-edu/static/js/main.643ee012.js.map",
     "787.9c9f06ac.chunk.js.map": "/portfolio-edu/static/js/787.9c9f06ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49c04f00.css",
-    "static/js/main.55b34ef5.js"
+    "static/js/main.643ee012.js"
   ]
 }
