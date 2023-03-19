@@ -33,9 +33,9 @@ export const NavBar = () => {
         <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" />
         </Navbar.Brand>
-        <NavBar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
             <sapn className="navbar-toggler-icon"></sapn>
-        </NavBar.Toggle>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
