@@ -11,7 +11,8 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://eh-duardo.github.io/portfolio-edu/"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,4 +38,5 @@
       "last 1 safari version"
     ]
   }
+  
 }
