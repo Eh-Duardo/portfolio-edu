@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
@@ -7,14 +7,14 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
-    const [scrolled, seScrolled] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
             if (window.scrollY > 50) {
-                seScrolled(true);
+                setScrolled(true);
             } else{
-                seScrolled(false);
+                setScrolled(false);
             }
         }
 
@@ -28,7 +28,7 @@ export const NavBar = () => {
     }
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
+    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" />
@@ -53,5 +53,5 @@ export const NavBar = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  )
 }
