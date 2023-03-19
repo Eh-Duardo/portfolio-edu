@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-edu/static/css/main.49c04f00.css",
-    "main.js": "/portfolio-edu/static/js/main.e2bddf9e.js",
+    "main.js": "/portfolio-edu/static/js/main.7943c4c2.js",
     "static/js/787.9c9f06ac.chunk.js": "/portfolio-edu/static/js/787.9c9f06ac.chunk.js",
     "static/media/color-sharp.png": "/portfolio-edu/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/banner-bg.png": "/portfolio-edu/static/media/banner-bg.cc1273af450504afe755.png",
@@ -21,12 +21,13 @@
     "static/media/nav-icon2.svg": "/portfolio-edu/static/media/nav-icon2.9b9489c0e2327f30e86ee7e0b5f72f55.svg",
     "static/media/nav-icon1.svg": "/portfolio-edu/static/media/nav-icon1.de167dc9ad15e7c55597947b14b669bb.svg",
     "static/media/nav-icon3.svg": "/portfolio-edu/static/media/nav-icon3.332881a84c91d4ca10e995a372e8039a.svg",
+    "static/media/nav-icon4.svg": "/portfolio-edu/static/media/nav-icon4.8b6b3ecb0e0d09428668790e76906954.svg",
     "main.49c04f00.css.map": "/portfolio-edu/static/css/main.49c04f00.css.map",
-    "main.e2bddf9e.js.map": "/portfolio-edu/static/js/main.e2bddf9e.js.map",
+    "main.7943c4c2.js.map": "/portfolio-edu/static/js/main.7943c4c2.js.map",
     "787.9c9f06ac.chunk.js.map": "/portfolio-edu/static/js/787.9c9f06ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49c04f00.css",
-    "static/js/main.e2bddf9e.js"
+    "static/js/main.7943c4c2.js"
   ]
 }
