@@ -1,9 +1,11 @@
-import { Row } from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import skill1 from "../assets/img/skills-html-logo.png";
+import skill2 from "../assets/img/skills-css-logo.png";
+import skill3 from "../assets/img/skills-js-logo.png";
+import skill4 from "../assets/img/skills-react-logo.png";
+import skill5 from "../assets/img/skills-node-logo.png";
+import skill6 from "../assets/img/skills-git-logo.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -35,20 +37,34 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>These are some of my technical skills</p>
-              <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} autoPlaySpeed={3000} draggable={true} swipeable={true} arrows={false} responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} autoPlaySpeed={2500} draggable={true} swipeable={true} arrows={false} responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>HTML 5</h5>
+                  <img src={skill1} alt="Image" />
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>CSS 3</h5>
+                  <img src={skill2} alt="Image" />
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <h5>JavaScript</h5>
+                  <img src={skill3} alt="Image" />
+                </div>
+                <div className="item">
+                  <h5>React</h5>
+                  <img src={skill4} alt="Image" />
+                </div>
+                <div className="item">
+                  <h5>Node</h5>
+                  <img src={skill5} alt="Image" />
+                </div>
+                <div className="item">
+                  <h5>Git</h5>
+                  <img src={skill6} alt="Image" />
                 </div>
               </Carousel>
+
             </div>
           </div>
         </div>
