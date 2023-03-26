@@ -1,12 +1,13 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import 'animate.css';
 import skill1 from "../assets/img/skills-html-logo.png";
 import skill2 from "../assets/img/skills-css-logo.png";
 import skill3 from "../assets/img/skills-js-logo.png";
 import skill4 from "../assets/img/skills-react-logo.png";
 import skill5 from "../assets/img/skills-node-logo.png";
 import skill6 from "../assets/img/skills-git-logo.png";
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
