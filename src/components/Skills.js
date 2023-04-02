@@ -36,33 +36,33 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p>These are some of my technical skills</p>
+              <h2>Linguagens</h2>
+              <p>Essas são algumas das linguagens que estou aprendendo</p>
               <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} autoPlaySpeed={2500} draggable={true} swipeable={true} arrows={false} responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
 
                 <div className="item">
                   <h5>HTML 5</h5>
-                  <img src={skill1} alt="Image" />
+                  <img src={skill1} alt="Ícone do HTML 5" />
                 </div>
                 <div className="item">
                   <h5>CSS 3</h5>
-                  <img src={skill2} alt="Image" />
+                  <img src={skill2} alt="Ícone do CSS 3" />
                 </div>
                 <div className="item">
                   <h5>JavaScript</h5>
-                  <img src={skill3} alt="Image" />
+                  <img src={skill3} alt="Ícone do JavaScript" />
                 </div>
                 <div className="item">
                   <h5>React</h5>
-                  <img src={skill4} alt="Image" />
+                  <img src={skill4} alt="Ícone do React" />
                 </div>
                 <div className="item">
                   <h5>Node</h5>
-                  <img src={skill5} alt="Image" />
+                  <img src={skill5} alt="Ícone do Node" />
                 </div>
                 <div className="item">
                   <h5>Git</h5>
-                  <img src={skill6} alt="Image" />
+                  <img src={skill6} alt="Ícone do Git" />
                 </div>
               </Carousel>
 
@@ -70,7 +70,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <img className="background-image-left" src={colorSharp} alt="Image" />
+      <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }

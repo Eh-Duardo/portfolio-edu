@@ -47,13 +47,13 @@ export const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{`Hi, my name is Eduardo and I'm`} <span className="txt-rotate" dataPeriod="550" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-            <p>I am a 22 year old Information Systems student and I have developed this portfolio to develop my skills and be able to organize my projects.</p>
-            <button onClick={() => console.log('connected')}>Let's Connect <ArrowRightCircle size={25} /></button>
+            <span className="tagline">Meu Portfolio</span>
+            <h1>{`Oii, me chamo Eduardo e eu sou`} <span className="txt-rotate" dataPeriod="550" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+            <p>Sou um estudante de Sistemas de Informação de 22 anos e desenvolvi este portfólio para desenvolver minhas habilidades e poder organizar meus projetos.</p>
+            <button onClick={() => console.log('connected')}>Meu Currículo <ArrowRightCircle size={25} /></button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Headder img" />
+            <img src={headerImg} alt="Imagem do cabeçalho" />
           </Col>
         </Row>
       </Container>
