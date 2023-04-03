@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
 <footer className="footer">
   <Container>
-    <Row className="align-items-center">
+    <Row className="align-items-center justify-content-center">
       <Col xs={12} sm={6} className="text-center text-sm-start">
         <img src={logo} alt="Logo Eduardo" />
       </Col>
@@ -28,5 +28,5 @@ export const Footer = () => {
   </Container>
 </footer>
 
-  )
-}
+  );
+};

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 155 41" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Archivo Black">@import url(https://fonts.googleapis.com/css2?family=Archivo+Black%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+    <style bx:fonts="Alata">@import url(https://fonts.googleapis.com/css2?family=Alata%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(255, 255, 255); font-family: &quot;Archivo Black&quot;; font-size: 3.23149px; font-weight: 700; line-height: 5.17039px; white-space: pre;" transform="matrix(6.872979, -0.011071, 0, 7.469105, -222.839084, -139.122515)"><tspan x="34.624" y="22.377">Duardohm</tspan><tspan x="34.624" dy="1em">​</tspan></text>
+  <text style="fill: rgb(179, 27, 225); font-family: Alata; font-size: 3.5545px; font-weight: 700; white-space: pre;" transform="matrix(6.786397, -2.470047, 2.2131, 6.080444, -134.548769, -155.264651)" x="8.776" y="35.126">&lt;</text>
+  <text style="fill: rgb(179, 27, 225); font-family: Alata; font-size: 3.5545px; font-weight: 700; white-space: pre;" transform="matrix(-6.124547, 3.827042, -3.428934, -5.487442, 324.441625, 163.483523)" x="8.776" y="35.126">&lt;</text>
+</svg>
