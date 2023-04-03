@@ -7,25 +7,26 @@ import navIcon4 from "../assets/img/nav-icon4.svg";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
-      <Container>
-        <Row className="align-items-center">
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo Eduardo" />
-          </Col>
-          
-          <Col className="text-center text-sm-end">
-            <div className="social-icon text">
-              <a href="https://www.linkedin.com/in/edupe/" target="_blank" rel="noreferrer" ><img src={navIcon1} alt="Ícone do Linkedin" /></a>
-              <a href="https://github.com/Eh-Duardo/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Ícone do GitHub" /></a>
-              <a href="https://www.instagram.com/Duardohm/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Ícone do Instagram" /></a>
-              <a href="https://linktr.ee/duardohm" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Ícone de Links" /></a>
-              <p>© Copyright 2023. All Rights Reserved</p>
-              <p>Eduardo Pereira da Silva</p>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
+<footer className="footer">
+  <Container>
+    <Row className="align-items-center">
+      <Col xs={12} sm={6} className="text-center text-sm-start">
+        <img src={logo} alt="Logo Eduardo" />
+      </Col>
+      
+      <Col xs={12} sm={6} className="text-center text-sm-end mt-3 mt-sm-0">
+        <div className="social-icon text">
+          <a href="https://www.linkedin.com/in/edupe/" target="_blank" rel="noreferrer" ><img src={navIcon1} alt="Ícone do Linkedin" /></a>
+          <a href="https://github.com/Eh-Duardo/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Ícone do GitHub" /></a>
+          <a href="https://www.instagram.com/Duardohm/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Ícone do Instagram" /></a>
+          <a href="https://linktr.ee/duardohm" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Ícone de Links" /></a>
+          <p className="mb-0 mt-3 mt-sm-0">&copy; 2023. All Rights Reserved</p>
+          <p className="mb-0">Eduardo Pereira da Silva</p>
+        </div>
+      </Col>
+    </Row>
+  </Container>
+</footer>
+
   )
 }
