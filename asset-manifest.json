@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-edu/static/css/main.054855fd.css",
-    "main.js": "/portfolio-edu/static/js/main.f48c714b.js",
+    "main.css": "/portfolio-edu/static/css/main.60910170.css",
+    "main.js": "/portfolio-edu/static/js/main.7ebd7664.js",
     "static/js/787.9c9f06ac.chunk.js": "/portfolio-edu/static/js/787.9c9f06ac.chunk.js",
     "static/media/color-sharp.png": "/portfolio-edu/static/media/color-sharp.bea361cfef80fefc2d1e.png",
-    "static/media/color-sharp2.png": "/portfolio-edu/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/skills-react-logo.png": "/portfolio-edu/static/media/skills-react-logo.8a6fc0a24a800d1e0f4a.png",
     "static/media/banner-bg.png": "/portfolio-edu/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/skills-css-logo.png": "/portfolio-edu/static/media/skills-css-logo.5d9a47215438429db24d.png",
@@ -28,12 +27,12 @@
     "static/media/nav-icon1.svg": "/portfolio-edu/static/media/nav-icon1.de167dc9ad15e7c55597947b14b669bb.svg",
     "static/media/nav-icon3.svg": "/portfolio-edu/static/media/nav-icon3.332881a84c91d4ca10e995a372e8039a.svg",
     "static/media/nav-icon4.svg": "/portfolio-edu/static/media/nav-icon4.8b6b3ecb0e0d09428668790e76906954.svg",
-    "main.054855fd.css.map": "/portfolio-edu/static/css/main.054855fd.css.map",
-    "main.f48c714b.js.map": "/portfolio-edu/static/js/main.f48c714b.js.map",
+    "main.60910170.css.map": "/portfolio-edu/static/css/main.60910170.css.map",
+    "main.7ebd7664.js.map": "/portfolio-edu/static/js/main.7ebd7664.js.map",
     "787.9c9f06ac.chunk.js.map": "/portfolio-edu/static/js/787.9c9f06ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.054855fd.css",
-    "static/js/main.f48c714b.js"
+    "static/css/main.60910170.css",
+    "static/js/main.7ebd7664.js"
   ]
 }
