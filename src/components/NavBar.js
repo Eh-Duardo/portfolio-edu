@@ -47,7 +47,7 @@ export const NavBar = () => {
           <span className="navbar-text d-flex align-items-center">
             <div className="social-icon md-3">
               <a href="https://www.linkedin.com/in/edupe/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Linkedin Icon" /></a>
-              <a href="https://github.com/Eh-Duardo/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Github Icon" /></a>
+              <a href="https://github.com/Duardohm/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="Github Icon" /></a>
               <a href="https://www.instagram.com/Duardohm/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Instagram Icon" /></a>
               <a href="https://linktr.ee/duardohm" target="_blank" rel="noreferrer"><img src={navIcon4} alt="My Links Icon" /></a>
             </div>
