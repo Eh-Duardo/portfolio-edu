@@ -3,8 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img.svg";
 
-const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
-const period = 550;
+
+const toRotate = ["Web Developer", "Web Designer", "IT Technician"];
+const period = 400;
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -50,10 +51,10 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Meu Portfolio</span>
-            <h1>
-              Oii, me chamo Eduardo e eu sou{" "}
+          <Col xl={7}>
+            <span className="tagline">Welcome to my portfolio</span>
+            <h1> 
+              My name is Eduardo and I am{" "}
               <span
                 className="txt-rotate"
                 dataPeriod={period}
@@ -62,16 +63,14 @@ export const Banner = () => {
               </span>
             </h1>
             <p>
-              Sou um estudante de Sistemas de Informação de 22 anos e desenvolvi
-              este portfólio para desenvolver minhas habilidades e poder
-              organizar meus projetos.
+            I'm a 22 year old Information Systems student and I've developed this portfolio to develop my skills and be able to organize my projects.
             </p>
             <button onClick={() => console.log("connected")}>
-              Meu Currículo <ArrowRightCircle size={25} />
+            My Resume<ArrowRightCircle size={25} />
             </button>
           </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Imagem do cabeçalho" />
+          <Col xl={5}>
+                <img src={headerImg} alt="Astronaut Header Image" />
           </Col>
         </Row>
       </Container>

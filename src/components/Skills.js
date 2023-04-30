@@ -36,8 +36,8 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Linguagens</h2>
-              <p>Essas são algumas das linguagens que estou aprendendo</p>
+              <h2>Skills</h2>
+              <p>These are some of the languages ​​I'm learning</p>
               <Carousel removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={true} autoPlaySpeed={2500} draggable={true} swipeable={true} arrows={false} responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
 
                 <div className="item">
