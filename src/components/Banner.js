@@ -53,7 +53,7 @@ export const Banner = () => {
                     <Col xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>
-                            My name is Eduardo and I aaaaaaaaaaaaaaaaaaaaam{" "}
+                            My name is Eduardo and I am{" "}
                             <span
                                 className="txt-rotate"
                                 dataPeriod={period}
